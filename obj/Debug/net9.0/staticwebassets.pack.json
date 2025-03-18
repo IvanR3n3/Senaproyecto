@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Pet_World.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Pet_World.3aegeu8tf8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\Alimentos.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\Alimentos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\Casa.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\Casa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\accesorios.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\accesorios.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\arena.png",
+      "PackagePath": "staticwebassets\\css\\img\\arena.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\collar.png",
+      "PackagePath": "staticwebassets\\css\\img\\collar.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\comidagat.png",
+      "PackagePath": "staticwebassets\\css\\img\\comidagat.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\direction.svg",
+      "PackagePath": "staticwebassets\\css\\img\\direction.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\email.svg",
+      "PackagePath": "staticwebassets\\css\\img\\email.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos1.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos1d.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos1d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos1i.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos1i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos2.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos2.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos3.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos4.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos4.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos4d.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos4d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\favoritos4i.png",
+      "PackagePath": "staticwebassets\\css\\img\\favoritos4i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\fondo.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\foto.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\foto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\fotoo.png",
+      "PackagePath": "staticwebassets\\css\\img\\fotoo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\fotooo.png",
+      "PackagePath": "staticwebassets\\css\\img\\fotooo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\gimnasiogat.png",
+      "PackagePath": "staticwebassets\\css\\img\\gimnasiogat.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\higiene.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\higiene.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\juguetes.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\juguetes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\juguetesham.png",
+      "PackagePath": "staticwebassets\\css\\img\\juguetesham.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\logoo.png",
+      "PackagePath": "staticwebassets\\css\\img\\logoo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\name.svg",
+      "PackagePath": "staticwebassets\\css\\img\\name.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\password.svg",
+      "PackagePath": "staticwebassets\\css\\img\\password.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\phone.svg",
+      "PackagePath": "staticwebassets\\css\\img\\phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc1.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc1.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc10.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc10.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc10d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc10d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc10i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc10i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc2.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc2.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc2d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc2d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc2i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc2i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc3.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc3d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc3d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc3i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc3i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc4.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc4.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc4d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc4d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc4i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc4i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc5.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc5.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc5d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc5d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc5i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc5i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc6.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc6.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc6d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc6d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc6i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc6i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc7.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc7.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc7d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc7d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc7i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc7i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc8.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc8.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc8d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc8d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc8i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc8i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc9.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc9.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc9d.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc9d.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\img\\produc9i.png",
+      "PackagePath": "staticwebassets\\css\\img\\produc9i.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\inicio.css",
+      "PackagePath": "staticwebassets\\css\\inicio.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\registro.css",
+      "PackagePath": "staticwebassets\\css\\registro.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\Pet_World\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Pet_World.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Pet_World.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Pet_World.props",
+      "PackagePath": "build\\Pet_World.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Pet_World.props",
+      "PackagePath": "buildMultiTargeting\\Pet_World.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Pet_World.props",
+      "PackagePath": "buildTransitive\\Pet_World.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

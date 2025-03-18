@@ -1,0 +1,56 @@
+﻿@model UserModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro ASP.NET</title>
+    <link rel="stylesheet" href="~/css/registro.css" />
+</head>
+<body>
+    <form asp-controller="Registro" asp-action="Registrar" method="post">
+        <h1>Registro</h1>
+
+        <div class="input-wrapper">
+            <input asp-for="Username" placeholder="Nombre">
+            <img class="input-icon" src="~/css/img/name.svg" alt="">
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <div class="input-wrapper">
+            <input asp-for="Email" placeholder="Email">
+            <img class="input-icon" src="~/css/img/email.svg" alt="">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="input-wrapper">
+            <input asp-for="Direccion" placeholder="Direccion">
+            <img class="input-icon" src="~/css/img/direction.svg" alt="">
+        </div>
+
+        <div class="input-wrapper">
+            <input asp-for="Phone" placeholder="Teléfono">
+            <img class="input-icon" src="~/css/img/phone.svg" alt="">
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <div class="input-wrapper">
+            <input asp-for="Password" placeholder="Contraseña" type="password">
+            <img class="input-icon" src="~/css/img/password.svg" alt="">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <!-- Botón para enviar el formulario -->
+        <button type="submit">Registrarse</button>
+
+        <div class="iniciar-sesion">
+            ¿Ya tienes una cuenta? <a href="@Url.Action("Login", "Account")">Inicia sesión</a>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,375 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet World</title>
+    <link rel="stylesheet" href="~/css/inicio.css" asp-append-version="true">
+</head>
+<body>
+    <!-- Barra superior fija -->
+    <header class="top-bar">
+        <div class="top-bar-container">
+            <div class="title">
+                <h1>PETWORLD</h1>
+            </div>
+            <div class="logo">
+                <img src="~/css/img/logoo.png" alt="Logo" asp-append-version="true">
+            </div>
+            <input type="text" placeholder="¿Qué necesitas para tu mascota?" class="search-bar">
+            <div class="user-actions">
+                <button class="login-btn" asp-controller="Account" asp-action="getLogin">
+                    Iniciar Sesión
+                </button>
+
+                <button class="register-btn" onclick="location.href='@Url.Action("Index", "Registro")'">Registrarse</button>
+                <div class="cart-icon" onclick="toggleCartDropdown()">
+                    🛒<span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+        <div id="cart-dropdown" class="cart-dropdown">
+            <h3>Carrito</h3>
+            <div id="cart-items"></div>
+            <button class="checkout-btn" onclick="location.href='@Url.Action("Checkout", "Order")'">Comprar</button>
+        </div>
+    </header>
+
+    <!-- Sección: Carrusel -->
+    <section class="carousel">
+        <div class="slides">
+            <div class="slide">
+                <img src="~/css/img/foto.jpg" alt="Promo 1" asp-append-version="true">
+            </div>
+
+            <div class="slide">
+                <img src="~/css/img/fotoo.png" alt="Promo 2" asp-append-version="true">
+            </div>
+
+            <div class="slide">
+                <img src="~/css/img/fotooo.png" alt="Promo 3" asp-append-version="true">
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function moveSlide(direction) {
+            currentSlide = (currentSlide + direction + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        setInterval(() => moveSlide(1), 5000); // Auto-slide cada 5 segundos
+    </script>
+
+    <!-- Sección: Categorías -->
+    <section class="categories">
+        <h2>Categorías</h2>
+        <div class="categories-container">
+            <div class="category">
+                <img src="~/css/img/Alimentos.jpg" alt="Alimento" asp-append-version="true">
+                <p>Alimento</p>
+            </div>
+            <div class="category">
+                <img src="~/css/img/Juguetes.jpg" alt="Juguetes" asp-append-version="true">
+                <p>Juguetes</p>
+            </div>
+            <div class="category">
+                <img src="~/css/img/Accesorios.jpg" alt="Accesorios" asp-append-version="true">
+                <p>Accesorios</p>
+            </div>
+        </div>
+    </section>
+    <!-- Sección: Productos Favoritos -->
+    <section class="favorite-products">
+        <h2>Productos Favoritos</h2>
+        <div class="products-container">
+            @{
+                var productos = new[] {
+            new { Imagen = "~/css/img/favoritos1.png", Nombre = "Huesos Masticables Medianos Mix de Sabores", Precio = 18000, Url = "producto.html" },
+            new { Imagen = "~/css/img/favoritos2.png", Nombre = "Smartbones Pollo Mini X 8 Unidades", Precio = 18360, Url = "producto1.html" },
+            new { Imagen = "~/css/img/favoritos3.png", Nombre = "Salsa Natural Select Tocineta", Precio = 9500, Url = "producto2.html" },
+            new { Imagen = "~/css/img/favoritos4.png", Nombre = "Royal Canin - Poodle Puppy", Precio = 185040, Url = "producto3.html" }
+            };
+            }
+
+            @foreach (var producto in productos)
+            {
+                <div class="product">
+                    <img src="@producto.Imagen" alt="@producto.Nombre" asp-append-version="true">
+                    <div class="product-info">
+                        <p>@producto.Nombre</p>
+                        <p>⭐⭐⭐⭐⭐ 5.0</p>
+                        <p>$@producto.Precio</p>
+                        <button class="info-button" onclick="location.href='@producto.Url';">Información</button><br><br>
+                        <button class="add-to-cart" data-product="@producto.Nombre" data-price="@producto.Precio">Agregar al carrito</button>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+    <br>
+    <!-- Sección: Productos Nuevos -->
+    <section class="new-products">
+        <h2 class="section-title">Nuevos Productos</h2><br><br>
+        <div class="products-container">
+            <div class="product">
+                <img src="~/css/img/produc1.png" alt="Kong - Cozie Mico" asp-append-version="true">
+                <div class="product-info">
+                    <p>Kong - Cozie Mico</p>
+                    <p>⭐⭐⭐ 3.5</p>
+                    <p>$51.870</p>
+                    <button class="info-button" onclick="location.href='producto4.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Kong - Cozie Mico" data-price="51870">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc2.png" alt="Valentín For Pets - Suéter Papá Noel" asp-append-version="true">
+                <div class="product-info">
+                    <p>Valentín For Pets - Suéter Papá Noel</p>
+                    <p>⭐⭐⭐⭐⭐ 5.0</p>
+                    <p>$105.735</p>
+                    <button class="info-button" onclick="location.href='producto5.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Valentín For Pets - Suéter Papá Noel" data-price="105735">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc3.png" alt="Juguete Mordedor" asp-append-version="true">
+                <div class="product-info">
+                    <p>Juguete Mordedor</p>
+                    <p>⭐⭐⭐⭐ 4.0</p>
+                    <p>$35.000</p>
+                    <button class="info-button" onclick="location.href='producto6.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Juguete Mordedor" data-price="35000">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc4.png" alt="Rascador para Gatos" asp-append-version="true">
+                <div class="product-info">
+                    <p>Rascador para Gatos</p>
+                    <p>⭐⭐⭐⭐⭐ 5.0</p>
+                    <p>$120.000</p>
+                    <button class="info-button" onclick="location.href='producto7.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Rascador para Gatos" data-price="120000">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc5.png" alt="Correa Reflectiva" asp-append-version="true">
+                <div class="product-info">
+                    <p>Correa Reflectiva</p>
+                    <p>⭐⭐⭐⭐ 4.5</p>
+                    <p>$45.000</p>
+                    <button class="info-button" onclick="location.href='producto8.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Correa Reflectiva" data-price="45000">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc6.png" alt="Comedero Antideslizante" asp-append-version="true">
+                <div class="product-info">
+                    <p>Comedero Antideslizante</p>
+                    <p>⭐⭐⭐⭐⭐ 5.0</p>
+                    <p>$60.000</p>
+                    <button class="info-button" onclick="location.href='producto9.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Comedero Antideslizante" data-price="60000">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc7.png" alt="Cama para Mascotas" asp-append-version="true">
+                <div class="product-info">
+                    <p>Cama para Mascotas</p>
+                    <p>⭐⭐⭐⭐⭐ 5.0</p>
+                    <p>$150.000</p>
+                    <button class="info-button" onclick="location.href='producto10.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Cama para Mascotas" data-price="150000">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc8.png" alt="Kit de Aseo" asp-append-version="true">
+                <div class="product-info">
+                    <p>Kit de Aseo</p>
+                    <p>⭐⭐⭐⭐ 4.5</p>
+                    <p>$80.000</p>
+                    <button class="info-button" onclick="location.href='producto11.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Kit de Aseo" data-price="80000">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc9.png" alt="Chaqueta Impermeable de Lujo Nasa Negra" asp-append-version="true">
+                <div class="product-info">
+                    <p>Chaqueta Impermeable de Lujo Nasa Negra</p>
+                    <p>⭐⭐⭐⭐⭐ 4.4</p>
+                    <p>$129.700</p>
+                    <button class="info-button" onclick="location.href='producto13.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Chaqueta Impermeable de Lujo Nasa Negra" data-price="129700">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/css/img/produc10.png" alt="Totto Pets - Guacal Doggy Gris" asp-append-version="true">
+                <div class="product-info">
+                    <p>Totto Pets - Guacal Doggy Gris</p>
+                    <p>⭐⭐⭐⭐⭐ 5.0</p>
+                    <p>$379.900</p>
+                    <button class="info-button" onclick="location.href='producto13.html';">Información</button><br><br>
+                    <button class="add-to-cart" data-product="Totto Pets - Guacal Doggy Gris" data-price="379900">Agregar al carrito</button>
+                </div>
+            </div>
+
+    </section>
+    <!-- Sección: Quiénes Somos y Comentarios -->
+    <section class="about-comments-container">
+        <!-- Sección: Quiénes Somos -->
+        <section id="quienes-somos" class="about-us">
+            <div class="about-us-container">
+                <div class="about-us-text">
+                    <h2>Quiénes Somos</h2>
+                    <p>
+                        En Pet World, nos dedicamos a ofrecer una selección cuidadosa de productos de alta calidad para cuidar
+                        a esos compañeros especiales que son parte de tu familia. Nuestro equipo está compuesto por personas
+                        comprometidas que comparten el mismo amor y respeto por los animales, asegurándose de que encuentres
+                        lo mejor para tus amigos peludos. Nos enorgullece brindarte una experiencia de compra cercana y confiable,
+                        donde cada detalle está pensado para que cuentes con productos seguros, duraderos y de confianza. Porque
+                        en Pet World, entendemos lo importante que es para ti ofrecer lo mejor a quienes te dan tanto sin pedir
+                        nada a cambio.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Comentarios -->
+        <section class="section comments">
+            <h2>COMENTARIOS</h2>
+            <div class="comment-item">
+                <span class="comment-author">Juan</span> <span class="comment-rating">⭐⭐⭐⭐⭐</span>
+                <p class="comment-text">¡Excelente servicio! Mis mascotas aman sus productos.</p>
+            </div>
+            <div class="comment-item">
+                <span class="comment-author">María</span> <span class="comment-rating">⭐⭐⭐⭐</span>
+                <p class="comment-text">Los precios son muy buenos y la calidad es excelente.</p>
+            </div>
+            <div class="comment-item">
+                <span class="comment-author">Carlos</span> <span class="comment-rating">⭐⭐⭐⭐⭐</span>
+                <p class="comment-text">Tienen una gran variedad de productos, ¡siempre vuelvo!</p>
+            </div>
+        </section>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="~/css/img/logoo.png" alt="Logo" asp-append-version="true">
+            </div>
+            <div class="footer-links">
+                <p><strong>Información</strong></p>
+                <a href="#">Políticas</a>
+                <a href="#">Términos y condiciones</a>
+            </div>
+            <div class="footer-links">
+                <p><strong>Contacto</strong></p>
+                <a href="#">Soporte</a>
+                <a href="#">Correo</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="scripts/app.js"></script>
+                <script>
+                    // Cargar el carrito desde el almacenamiento local (si existe)
+                    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                    // Función para guardar el carrito en el almacenamiento local
+                    function saveCartToLocalStorage() {
+                        localStorage.setItem('cart', JSON.stringify(cart));
+                    }
+
+                    // Función para cambiar la imagen principal al hacer clic en una imagen del carrusel
+                    function changeImage(src) {
+                        document.getElementById('mainImage').src = src;
+                    }
+
+                    // Función para cambiar la cantidad de un producto
+                    function changeQuantity(amount) {
+                        const quantityInput = document.getElementById('quantity');
+                        let currentQuantity = parseInt(quantityInput.value);
+                        if (!isNaN(currentQuantity)) {
+                            currentQuantity += amount;
+                            if (currentQuantity > 0) {
+                                quantityInput.value = currentQuantity;
+                            }
+                        }
+                    }
+
+                    // Función para agregar un producto al carrito
+                    function addToCart(productName, productPrice) {
+                        const quantityInput = document.getElementById('quantity');
+                        const quantity = quantityInput ? parseInt(quantityInput.value) : 1; // Cantidad predeterminada: 1
+
+                        const item = {
+                            name: productName,
+                            price: parseInt(productPrice),
+                            quantity: quantity
+                        };
+
+                        const existingItemIndex = cart.findIndex(i => i.name === item.name);
+                        if (existingItemIndex > -1) {
+                            cart[existingItemIndex].quantity += quantity;
+                        } else {
+                            cart.push(item);
+                        }
+
+                        saveCartToLocalStorage(); // Guardar el carrito en el almacenamiento local
+                        updateCartDisplay();
+                        alert(Se han agregado ${quantity} ${productName} al carrito.);
+                    }
+
+                    // Función para actualizar la visualización del carrito
+                    function updateCartDisplay() {
+                        const cartCount = document.getElementById('cart-count');
+                        const cartItems = document.getElementById('cart-items');
+                        cartCount.textContent = cart.reduce((acc, item) => acc + item.quantity, 0);
+
+                        cartItems.innerHTML = '';
+                        cart.forEach((item, index) => {
+                            const itemElement = document.createElement('div');
+                            itemElement.className = 'cart-item';
+                            itemElement.innerHTML = `
+                                <p><strong>${item.name}</strong> - ${item.quantity} x $${item.price.toLocaleString()}</p>
+                                <button onclick="removeFromCart(${index})">Quitar</button>
+                            `;
+                            cartItems.appendChild(itemElement);
+                        });
+
+                        if (cart.length === 0) {
+                            cartItems.innerHTML = '<p>Tu carrito está vacío</p>';
+                        }
+                    }
+
+                    // Función para eliminar un producto del carrito
+                    function removeFromCart(index) {
+                        cart.splice(index, 1);
+                        saveCartToLocalStorage(); // Guardar los cambios en el almacenamiento local
+                        updateCartDisplay();
+                    }
+
+                    document.addEventListener('DOMContentLoaded', () => {
+                        updateCartDisplay();
+                    });
+                </script>
+</body>
+</html>

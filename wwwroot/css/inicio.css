@@ -1,0 +1,489 @@
+﻿/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Cambio de fuente a Poppins */
+    background-color: #f9f9f9;
+}
+
+/* Barra superior fija */
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4A148C;
+    color: white;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn, .register-btn {
+    background-color: #ffca28;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.cart-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+    .cart-icon span {
+        font-size: 1.5rem;
+    }
+
+.cart-dropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.cart-icon:hover .cart-dropdown {
+    display: block;
+}
+
+.cart-dropdown p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Título */
+.title h1 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+/* Carrusel */
+.carousel {
+    position: relative;
+    width: 100%; /* Abarca todo el ancho */
+    overflow: hidden; /* Oculta el contenido desbordado */
+    margin: 0 auto; /* Centrado */
+}
+
+    .carousel .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+        animation: slide 15s infinite;
+    }
+
+    .carousel .slide {
+        flex: 0 0 100%; /* Cada imagen ocupa el 100% del ancho */
+    }
+
+    .carousel img {
+        width: 100%; /* Imagen responsiva */
+        height: auto; /* Mantiene la proporción original */
+        object-fit: contain; /* Evita recortes */
+        display: block; /* Elimina espacios en blanco */
+    }
+
+/* Categorías */
+.categories {
+    background-color: #fff;
+    padding: 40px 0; /* Aumenté el padding para mayor espacio */
+    text-align: center;
+}
+
+    .categories h2 {
+        font-size: 3rem; /* Tamaño de letra aumentado */
+        color: #4A148C; /* Color morado */
+        font-weight: bold;
+        text-transform: uppercase; /* Título en mayúsculas */
+        margin-bottom: 20px;
+        letter-spacing: 2px; /* Espaciado entre letras para mayor impacto */
+        text-align: center; /* Centra el texto */
+        font-family: 'Georgia', serif; /* Aplica la tipografía Georgia */
+    }
+
+.section-title {
+    font-size: 4rem; /* Aumento del tamaño del título */
+    color: #4A148C;
+    font-weight: bold;
+    text-transform: uppercase; /* Títulos en mayúsculas */
+    margin-bottom: 20px;
+    letter-spacing: 2px; /* Espaciado entre letras para mayor impacto */
+    text-align: center; /* Centra el texto */
+    font-family: 'Georgia', serif; /* Aplica la tipografía Georgia */
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category img {
+    width: 120px; /* Tamaño fijo */
+    height: 120px; /* Tamaño fijo */
+    border-radius: 50%; /* Hacer que las imágenes sean circulares */
+    object-fit: cover; /* Ajustar la imagen al contenedor sin deformarla */
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Productos Favoritos */
+.favorite-products h2 {
+    font-family: 'Georgia', serif; /* Tipografía Georgia */
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 3.5rem; /* Tamaño de fuente más grande */
+    color: #4A148C; /* El mismo morado que el resto del sitio */
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los productos dentro del contenedor */
+    gap: 20px; /* Espacio entre los productos */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.product {
+    text-align: center; /* Centra el contenido dentro de cada producto */
+    width: 200px; /* Ajusta el tamaño del producto según sea necesario */
+}
+
+.favorite-products {
+    background-color: #f1f1f1;
+    padding: 60px 20px; /* Aumento de espacio para un diseño más espacioso */
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Bordes más redondeados */
+    overflow: hidden;
+    width: 220px; /* Un poco más ancho para mejorar el diseño */
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px; /* Más espacio entre productos */
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product:hover {
+        transform: translateY(-10px); /* Efecto de elevación al pasar el mouse */
+    }
+
+    .product img {
+        width: 100%;
+        height: 200px; /* Altura uniforme */
+        object-fit: cover;
+    }
+
+.product-info {
+    padding: 15px;
+}
+
+    .product-info p {
+        font-size: 1rem;
+        color: #333;
+        margin: 5px 0;
+    }
+
+    .product-info button {
+        background-color: #4A148C;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 1rem;
+        text-transform: uppercase; /* Botón en mayúsculas */
+        letter-spacing: 1px; /* Espaciado de letras */
+        transition: background-color 0.3s;
+    }
+
+        .product-info button:hover {
+            background-color: #673AB7;
+        }
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 10px; /* Reducir el padding para que no sea tan grueso */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    /* Aumentar el tamaño del logo */
+    .footer-content .logo img {
+        height: 80px; /* Aumentar la altura del logo */
+    }
+
+.footer-links {
+    margin: 10px;
+}
+
+    .footer-links p {
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase; /* Enfatiza las secciones */
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 5px 0;
+        display: block;
+    }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+/* Contenedor para ambas secciones */
+.about-comments-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+/* Quiénes Somos */
+.about-us {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    padding: 40px 20px; /* Aumenta el espacio interno para un mejor diseño */
+    background-color: #f9f9f9; /* Fondo claro y neutro */
+    border-radius: 8px;
+    max-width: 900px; /* Limita el ancho para que no se extienda demasiado */
+    margin: 0; /* Elimina márgenes adicionales */
+}
+
+    /* Título de Quiénes Somos */
+    .about-us h2 {
+        font-size: 3.5rem; /* Aumenté el tamaño del título */
+        font-family: 'Georgia', serif;
+        color: #4A148C; /* Color morado */
+        margin-bottom: 0; /* Elimina el espacio inferior */
+        text-transform: uppercase;
+    }
+
+    /* Contenido de Quiénes Somos */
+    .about-us p {
+        font-family: 'Georgia', serif; /* Tipografía Georgia */
+        font-size: 1.2rem; /* Tamaño de fuente del contenido */
+        color: #333; /* Color del texto */
+        line-height: 1.6; /* Aumento del interlineado para mejor legibilidad */
+        text-align: justify; /* Justifica el texto para una alineación más ordenada */
+        margin: 0 auto; /* Centra el párrafo en su contenedor */
+        max-width: 800px; /* Limita el ancho máximo del contenido */
+        padding: 10px 0; /* Espaciado vertical para un mejor flujo de lectura */
+    }
+
+/* Título de los comentarios */
+.comments h2 {
+    font-size: 3.0rem; /* Título con tamaño grande similar a Quiénes Somos */
+    font-family: 'Georgia', serif;
+    color: #4A148C; /* Color morado */
+    margin-bottom: 0; /* Elimina el espacio inferior */
+    text-transform: uppercase;
+}
+
+/* Comentarios */
+.comments {
+    flex: 1; /* También ocupa el 50% del ancho disponible */
+    font-family: 'Georgia', serif;
+    padding: 0; /* Elimina el padding adicional en la sección de comentarios */
+}
+
+/* Estilo de cada comentario */
+.comment-item {
+    padding: 10px 0; /* Reduce el espacio entre los comentarios */
+    font-size: 1.2rem; /* Tamaño de fuente igual al de los párrafos de Quiénes Somos */
+    line-height: 1.6; /* Aumenta el interlineado para mejor legibilidad */
+}
+
+/* Autor de los comentarios */
+.comment-author {
+    font-weight: bold;
+    color: #4A148C; /* Color morado para el autor */
+    font-size: 1.2rem; /* Tamaño de fuente igual al contenido */
+}
+
+/* Estrellas de calificación */
+.comment-rating {
+    color: #dfd186; /* Mantenemos el dorado para las estrellas */
+    font-size: 1.2rem; /* Igual al tamaño del texto */
+}
+
+/* Texto del comentario */
+.comment-text {
+    margin: 5px 0;
+    font-size: 1.2rem; /* Tamaño de fuente igual al contenido */
+    color: #000000;
+    line-height: 1.6; /* Asegura el interlineado adecuado */
+}
+/* Sección de carrito */
+.cart-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .quantity button {
+        padding: 5px 10px;
+        background-color: #4A148C;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .quantity input {
+        width: 50px;
+        text-align: center;
+        padding: 5px;
+        font-size: 1rem;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #5002aa;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* Dropdown del carrito */
+.cart-dropdown {
+    position: absolute;
+    top: 60px;
+    right: 20px; /* Ajustado para que aparezca al lado derecho */
+    width: 300px;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+    .cart-dropdown h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5px;
+}
+
+    .cart-item p {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    .cart-item button {
+        align-self: flex-end;
+        background-color: #ff5252;
+        border: none;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A148C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
